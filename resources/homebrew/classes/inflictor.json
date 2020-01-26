@@ -1,0 +1,217 @@
+{
+  "title": "Inflictor",
+  "classDescription": "All power comes at a cost. A wizard must study laboriously. A sorcerer learns control. A warlock puts their soul in the hands of fate or worse. But an Inflictor, they pay the cost much more literally. The power of blood fuels their magics. Their blood, specifically.",
+  "creatingHeader": "Creating an Inflictor",
+  "creatingDescription": "An Inflictor is a hybrid class who supplements their martial abilities with potent blood magic. Their resilience is key to acheiving optimal results.",
+  "classFeaturesHeading": "Class Features",
+  "quickBuildDescription": "You can make an Inflictor quickly by following these suggestions. First, Constitution should be your highest ability score, followed by Strength or Dexterity, depending on how you wish to specialize. Second, choose the Soldier background.",
+  "hitDice": 10,
+  "armor": "Medium Armor, Shields",
+  "weapons": "Simple Weapons, Martial Weapons",
+  "tools": "None",
+  "savingThrows": "Strength, Constitution",
+  "skills": "Choose two from Acrobatics, Athletics, Animal Handling, Intimidation, Medicine, and Survival",
+  "equipment": [
+    "(a) Chain Shirt or (b) Leather, Longbow, and 20 Arrows",
+    "(a) A Martial Weapon and Shield or (b) Two martial Weapons",
+    "(a) A Dungeoneer's Pack or (b) an Explorer's Pack",
+    "(a) a Light Crossbow and 20 bolts or (b) two handaxes"
+  ],
+  "headers": [
+    "Level",
+    "Proficiency Bonus",
+    "Features",
+    "Blood Surges",
+    "Curse Dice",
+    "Spells Known",
+    "1st", "2nd", "3rd", "4th", "5th"
+  ],
+  "tableRows": [
+    { "level": 1, "proficiency": 2, "features": "Spellcasting, Blood Magic Origin", "blood_surges": "--", "curse_dice": "d4", "spells": 2, "slots": [2, "--","--","--","--"] },
+    { "level": 2, "proficiency": 2, "features": "Sanguine Arts", "blood_surges": 2, "curse_dice": "d4", "spells": 3, "slots": [3, "--","--","--","--"] },
+    { "level": 3, "proficiency": 2, "features": "Fighting Style", "blood_surges": 3, "curse_dice": "d4", "spells": 4, "slots": [3, "--","--","--","--"] },
+    { "level": 4, "proficiency": 2, "features": "Ability Score Improvement", "blood_surges": 4, "curse_dice": "d4", "spells": 5, "slots": [4, 1, "--","--","--"] },
+    { "level": 5, "proficiency": 3, "features": "Extra Attack", "blood_surges": 5, "curse_dice": "d6", "spells": 6, "slots": [4, 2, "--","--","--"] },
+    { "level": 6, "proficiency": 3, "features": "Blood Magic Origin Feature", "blood_surges": 6, "curse_dice": "d6", "spells": 7, "slots": [4, 3,"--","--","--"] },
+    { "level": 7, "proficiency": 3, "features": "--", "blood_surges": 7, "curse_dice": "d6", "spells": 8, "slots": [4, 3, 1, "--","--"] },
+    { "level": 8, "proficiency": 3, "features": "Ability Score Improvement", "blood_surges": 8, "curse_dice": "d6", "spells": 9, "slots": [4, 3, 1,"--","--"] },
+    { "level": 9, "proficiency": 4, "features": "--", "blood_surges": 9, "curse_dice": "d8", "spells": 10, "slots": [4, 3, 2, "--","--"] },
+    { "level": 10, "proficiency": 4, "features": "Blood Magic Origin Feature", "blood_surges": 10, "curse_dice": "d8", "spells": 11, "slots": [4, 3, 2, "--","--"] },
+    { "level": 11, "proficiency": 4, "features": "Extra Attack (2)", "blood_surges": 11, "curse_dice": "d8", "spells": 12, "slots": [4, 3, 3, "--","--"] },
+    { "level": 12, "proficiency": 4, "features": "Ability Score Improvement", "blood_surges": 12, "curse_dice": "d8", "spells": 12, "slots": [4, 3, 3, "--","--"] },
+    { "level": 13, "proficiency": 5, "features": "Additional Fighting Style", "blood_surges": 13, "curse_dice": "d10", "spells": 13, "slots": [4, 3, 3, 1,"--"] },
+    { "level": 14, "proficiency": 5, "features": "Blood Magic Origin Feature", "blood_surges": 14, "curse_dice": "d10", "spells": 13, "slots": [4, 3, 3, 1,"--"] },
+    { "level": 15, "proficiency": 5, "features": "Contagion", "blood_surges": 15, "curse_dice": "d10", "spells": 14, "slots": [4, 3, 3, 2,"--"] },
+    { "level": 16, "proficiency": 5, "features": "Ability Score Improvement", "blood_surges": 16, "curse_dice": "d10", "spells": 14, "slots": [4, 3, 3, 2,"--"] },
+    { "level": 17, "proficiency": 6, "features": "--", "blood_surges": 4, "curse_dice": "d12", "spells": 14, "slots": [4, 3, 3, 3, 1] },
+    { "level": 18, "proficiency": 6, "features": "Blood Magic Origin Feature", "blood_surges": 18, "curse_dice": "d12", "spells": 15, "slots": [4, 3, 3, 3, 1] },
+    { "level": 19, "proficiency": 6, "features": "Ability Score Improvement", "blood_surges": 19, "curse_dice": "d12", "spells": 15, "slots": [4, 3, 3, 3, 2] },
+    { "level": 20, "proficiency": 6, "features": "Blood Calamity", "blood_surges": 20, "curse_dice": "d12", "spells": 15, "slots": [4, 3, 3, 3, 2] }
+  ],
+  "spellCastingDescription": "You draw on the potent magic of blood to fuel your spells.",
+  "focus": "You use your blood as a spellcasting focus. It replaces all components that a focus would. If a spell has Material components for which you can use a focus, roll a number of d4 equal to the spell slot level expended due to Blood Depletion, dealing you that much damage. You cannot prevent or mitigate this damage. You cannot use a normal spellcasting focus or component pouch for your Inflictor Spells.",
+  "spellSlotDescription": "The Inflictor table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell false life and have a 1st-level and a 2nd-level spell slot available, you can cast false life using either slot.",
+  "spellsKnownDescription": "You know two 1st-level spells of your choice from the Sorcerer spell list. The Spells Known column of the Inflictor table shows when you learn more Inflictor spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level. Additionally, when you gain a level in this class, you can choose one of the Inflictor spells you know and replace it with another spell from the Sorcerer spell list, which also must be of a level for which you have spell slots.",
+  "spellCastingAbility": "Constitution is your spellcasting ability for your Inflictor spells, since the power of your magic relies on your ability to draw upon the power of your blood. You use your Constitution whenever a spell refers to your spellcasting ability. In addition, you use your Constitution modifier when setting the saving throw DC for a Inflictor spell you cast and when making an attack roll with one.",
+  "spellSaveDC": "= 8 + your proficiency bonus + your Constitution modifier",
+  "spellAttackModifier": "= your proficiency bonus + your Constitution modifier",
+  "classLevelFeatures": [
+    {
+      "name": "Blood Magic Origin",
+      "description": "Starting at 1st level, you decide what the source of your blood's magical properties are: Curse, Blessing, Experimentation, or Exposure. You gain additional features based on your origin at the 6th, 10th, 14th, and 18th levels."
+    },
+    {
+      "name": "Blood Surges",
+      "description": "Starting at 2nd level, you learn the ability to tap into the magical properties of your blood. You will gain an additional Blood Surge at each level, and will gain new abilities with which to use them as indicated by the Inflictor table. Blood Surges recover after a long rest."
+    },
+    {
+      "name": "Sanguine Arts",
+      "description": [
+        "Starting at the 2nd level, you have access to abilities that require the use of your blood surges. You start with two at the 2nd level, and gain new ones based on your Blood Magic Origin.",
+        "You have the following abilities at the 2nd level. You can use only one ability a turn unless stated otherwise:"
+      ],
+      "sub": [
+        {"header": "Blood For Blood", "detail": "Expend 1 Blood Surge per spell slot level expended to prevent the damage caused by Blood Depletion" },
+        {"header": "Blood Curse", "detail": "After hitting with a melee or ranged weapon attack, you can expend 2 Blood Surges to place a Blood Curse on your target. They take one Curse Dice of necrotic damage at the start of their turn for 1d4 turns. Your Curse Dice value can be found on the Inflictor table." }
+      ]
+    },
+    {
+      "name": "Fighting Style",
+      "description": "Starting at 3rd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+      "sub": [
+        { "header": "Archery", "detail": "You gain a +2 bonus to attack rolls you make with ranged weapons." },
+        { "header": "Defense", "detail": "While you are wearing armor, you gain a +1 bonus to AC." },
+        { "header": "Dueling", "detail": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon." },
+        { "header": "Great Weapon Fighting", "detail": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit." },
+        { "header": "Protection", "detail": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield." },
+        { "header": "Two-Weapon Fighting", "detail": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack." }
+      ]
+    },
+    {
+      "name": "Ability Score Increase",
+      "description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can\"t increase an ability score above 20 using this feature."
+    },
+    {
+      "name": "Extra Attack",
+      "description": [
+        "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+        "The number of attacks increases to three when you reach 11th level in this class."
+      ]
+    },
+    {
+      "name": "Blood Magic Origin Feature",
+      "description": "Beginning at the 6th level, you gain an additional Blood Magic Origin Feature"
+    },
+    {
+      "name": "Blood Magic Origin Feature",
+      "description": "Beginning at the 10th level, you gain an additional Blood Magic Origin Feature"
+    },
+    {
+      "name": "Extra Attack",
+      "description": "Beginning at 11th level, you can attack three times, instead of twice, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Additional Fighting Style",
+      "description": "Beginning at the 13th level, you can choose a second option from the Fighting Style class feature."
+    },
+    {
+      "name": "Blood Magic Origin Feature",
+      "description": "Beginning at the 14th level, you gain an additional Blood Magic Origin Feature"
+    },
+    {
+      "name": "Contagion",
+      "description": "Beginning at the 15th level, whenever a creature afflicted with your Blood Curse dies, if it is within 15 feet of a valid target you can move the Blood Curse to that target. It retains the number of remaining turns on the Blood Curse."
+    },
+    {
+      "name": "Blood Magic Origin Feature",
+      "description": "Beginning at the 18th level, you gain an additional Blood Magic Origin Feature"
+    },
+    {
+      "name": "Blood Calamity",
+      "description": "Beginning at the 20th level, you regain 4 Blood Surges whenever you take a short rest."
+    }
+  ],
+  "subClassName": "Blood Magic Origins",
+  "subClasses": [
+    {
+      "name": "Curse", "progressions": [
+        {
+          "name": "Staunching Curse",
+          "description": "Beginning at the 1st level, when you take this Origin, you learn to turn your Curse into your greatest weapon, turning its potency against your foes. Once per turn, after getting hit by an enemy, you can use your reaction to roll a Curse Dice and reduce the damage by that amount. You must roll this after being hit, but before the damage is revealed. You can use this feature a number of times equal to your Constitution modifier (at least 1) and regain uses after taking a long rest"
+        },
+        {
+          "name": "Expanded Sanguine Arts",
+          "description": "Beginning at the 6th level, you gain access to the expanded list of Sanguine Arts. You choose an additional one of these at the 6th, 10th, 14th, and 18th levels to use with your Sanguine Arts feature.",
+          "sub": [
+            { "header": "Blood Enhancement", "detail": "Choose an ability. Expend a number of Blood Surges equal to its current modifier (minimum of 1) to increase the ability by 2, to a maximum of 24 for 8 hours. Only one Blood Enhancement can be active on you at once, and further uses replace the current enhancement." },
+            { "header": "Conversion", "detail": "As a bonus action, convert one spell slot into a number of Blood Surges equal to half its level. You suffer Blood Depletion for the given spell slot. You can use a second Sanguine Art this turn." },
+            { "header": "Magic Curse", "detail": "After hitting with a melee or ranged weapon attack, you can expend 2 Blood Surges to place a Magic Curse on your target. The next spell attack they make is made at disadvantage and they take a Curse Dice of necrotic damage when the attack is made. The curse ends after 1 minute." },
+            { "header": "Enhance Curse", "detail": "While inflicting a target with Blood Curse, expend an additional 2 Blood Surges to add your spellcasting modifier (Con) to the damage dealt by your curse to that target on each turn." },
+            { "header": "Cursed Aura", "detail": "As a bonus action, expend 4 Blood Surges. A cursed aura emenates from you. All creatures except for you in a 30ft radius sphere centered on your location have disadvantage on all Str, Dex, and Con saving throws, and all attacks made against them are made at advantage. The Aura lasts for 1 minute and remains in a fixed location, even should you move. You must keep concentration on the aura to maintain it, and follow the rules for concentration spells in this regard." },
+            { "header": "Blood Spike", "detail": "Expend 1 Blood Surge. Until the end of your next turn, whenever an enemy within 5 feet of you deals damage to you, you can spend a Blood Surge to deal them one Curse Dice of necrotic damage." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blessing", "progressions": [
+        {
+          "name": "Blessed Blood",
+          "description": "Beginning at the 1st level, when you take this Origin, you learn to turn your Blessing against your foes. All damage dealt by your Curse Dice is now Radiant damage. When you hit with a melee or ranged weapon attack, you may deal an additional Curse Dice of radiant damage. You can use this feature a number of times equal to your Constitution modifier (at least 1) and regain uses after taking a long rest"
+        },
+        {
+          "name": "Expanded Sanguine Arts",
+          "description": "Beginning at the 6th level, you gain access to the expanded list of Sanguine Arts. You choose an additional one of these at the 6th, 10th, 14th, and 18th levels to use with your Sanguine Arts feature.",
+          "sub": [
+            { "header": "Blood Enhancement", "detail": "Choose an ability. Expend a number of Blood Surges equal to its current modifier (minimum of 1) to increase the ability by 2, to a maximum of 24 for 8 hours. Only one Blood Enhancement can be active on you at once, and further uses replace the current enhancement." },
+            { "header": "Conversion", "detail": "As a bonus action, convert one spell slot into a number of Blood Surges equal to half its level. You suffer Blood Depletion for the given spell slot. You can use a second Sanguine Art this turn." },
+            { "header": "Magic Curse", "detail": "After hitting with a melee or ranged weapon attack, you can expend 2 Blood Surges to place a Magic Curse on your target. The next spell attack they make is made at disadvantage and they take a Curse Dice of necrotic damage when the attack is made. The curse ends after 1 minute." },
+            { "header": "Blessed Touch", "detail": "As a bonus action, expend 1 Blood Surge to touch another creature and give them advantage on all attacks they make before the start of your next turn." },
+            { "header": "Blessed Aura", "detail": "As a bonus action, expend 4 Blood Surges. A blessed aura emenates from you. All creatures you designate in a 30ft radius sphere centered on your location have advantage on all Str, Dex, and Con saving throws, and all attacks they make are made at advantage. The Aura lasts until the start of your next turn and remains in a fixed location, even should you move. You must keep concentration on the aura to maintain it, and follow the rules for concentration spells in this regard." },
+            { "header": "Blood Infusion", "detail": "As an action, expend up to 3 Blood Surges to heal a target. Roll a Curse Dice for each Blood Surge expended to heal any target you can see within 30 feet for that amount." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Experimentation", "progressions": [
+        {
+          "name": "Alchemic Blood",
+          "description": "Beginning at the 1st level, when you take this Origin, you learn to turn your blood, mutated by science, against those who would do you harm. When making a skill check, you can add your Curse Dice to the check. You must use this ability before the result of the roll is declared. You can use this feature a number of times equal to your Constitution modifier (at least 1) and regain uses after taking a long rest"
+        },
+        {
+          "name": "Expanded Sanguine Arts",
+          "description": "Beginning at the 6th level, you gain access to the expanded list of Sanguine Arts. You choose an additional one of these at the 6th, 10th, 14th, and 18th levels to use with your Sanguine Arts feature.",
+          "sub": [
+            { "header": "Blood Enhancement", "detail": "Choose an ability. Expend a number of Blood Surges equal to its current modifier (minimum of 1) to increase the ability by 2, to a maximum of 24 for 8 hours. Only one Blood Enhancement can be active on you at once, and further uses replace the current enhancement." },
+            { "header": "Conversion", "detail": "As a bonus action, convert one spell slot into a number of Blood Surges equal to half its level. You suffer Blood Depletion for the given spell slot. You can use a second Sanguine Art this turn." },
+            { "header": "Magic Curse", "detail": "After hitting with a melee or ranged weapon attack, you can expend 2 Blood Surges to place a Magic Curse on your target. The next spell attack they make is made at disadvantage and they take a Curse Dice of necrotic damage when the attack is made. The curse ends after 1 minute." },
+            { "header": "Chemical Reaction", "detail": "As a bonus action, expend 1 Blood Surge to touch another creature to diminish one of their abilities. Pick on of their abilities. They make a saving throw of that type against your Spell Save DC. If they fail, their ability is lowered by 2 for 1 minute. A target can only have a single instance of this ability active on them at once." },
+            { "header": "Chemical Expulsion", "detail": "As an action, expend 4 Blood Surges. Hazardous chemicals seep out of your pores and open wounds, creating a spherical cloud 30 feet in radius centered on your location. All creatures except for you who start their turn in the area or step into it for the first time that turn make a constitution saving throw. On a failed save they take 4 Curse Dice of Poison damage, half on a successful save. At the start of your next turn the area of effect shrinks to a 15 ft radius, and fully diminishes at the start of your next turn." },
+            { "header": "Blood Infusion", "detail": "As an action, expend up to 3 Blood Surges to heal a target. Roll a Curse Dice for each Blood Surge expended to heal any target you can see within 30 feet for that amount." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exposure", "progressions": [
+        {
+          "name": "Tainted Blood",
+          "description": "Beginning at the 1st level, when you take this Origin, you learn to turn your blood, tainted by toxic chemicals and dark magic, against those who would do you harm. Whenever an enemy that is within 5 ft of you hits you with an attack and deals you damage, you can deal them a Curse Dice of poison damage. You can use this feature a number of times equal to your Constitution modifier (at least 1) and regain uses after taking a long rest"
+        },
+        {
+          "name": "Expanded Sanguine Arts",
+          "description": "Beginning at the 6th level, you gain access to the expanded list of Sanguine Arts. You choose an additional one of these at the 6th, 10th, 14th, and 18th levels to use with your Sanguine Arts feature.",
+          "sub": [
+            { "header": "Blood Enhancement", "detail": "Choose an ability. Expend a number of Blood Surges equal to its current modifier (minimum of 1) to increase the ability by 2, to a maximum of 24 for 8 hours. Only one Blood Enhancement can be active on you at once, and further uses replace the current enhancement." },
+            { "header": "Conversion", "detail": "As a bonus action, convert one spell slot into a number of Blood Surges equal to half its level. You suffer Blood Depletion for the given spell slot. You can use a second Sanguine Art this turn." },
+            { "header": "Chemical Reaction", "detail": "As a bonus action, expend 1 Blood Surge to touch another creature to diminish one of their abilities. Pick on of their abilities. They make a saving throw of that type against your Spell Save DC. If they fail, their ability is lowered by 2 for 1 minute. A target can only have a single instance of this ability active on them at once." },
+            { "header": "Chemical Expulsion", "detail": "As an action, expend 4 Blood Surges. Hazardous chemicals seep out of your pores and open wounds, creating a spherical cloud 30 feet in radius centered on your location. All creatures except for you who start their turn in the area or step into it for the first time that turn make a constitution saving throw. On a failed save they take 4 Curse Dice of Poison damage, half on a successful save. At the start of your next turn the area of effect shrinks to a 15 ft radius, and fully diminishes at the start of your next turn." },
+            { "header": "Toxic", "detail": "Expend 2 Blood Surges. A thick chemical fog billows out of your mouth and open wounds. Until the end of your turn, any space you enter becomes filled with a thick fog. Nothing except you can see through or within the spaces and the spaces covered are considered difficult terrain. The fog lasts until the end of your next turn." },
+            { "header": "Diseased Touch", "detail": "As a bonus action, expend 1 Blood Surge to touch another creature and give them disadvantage on all attacks they make before the start of your next turn." }
+          ]
+        }
+      ]
+    }
+  ]
+}

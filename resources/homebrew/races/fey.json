@@ -1,0 +1,79 @@
+{
+  "title": "Fey",
+  "quote": [
+    "\"The Feywilds are a place of beauty and terror, filled with deadly flora and fauna that entice you with their otherworldly colors and brilliant alure. But don't stray far from the path, and certainly don't stray far on the path. You may find yourself lost after even the smallest of steps.\"",
+    "\"But there are none as terrifying as the Fey who call that realm their home. Some are more beautiful than a mortal mind could possibly imagine. Others are more horrid and monstrous than our darkest of nightmares. Some are just plain weird. They revel in it, revel in our shocked gazes as we stand before them, us mortal insects.\"",
+    " -- Artan Fennick, Adventurer"
+  ],
+  "description": [
+    { "header": "", "detail": "Fey were creatures from the Feywild, a parallel plane to the Prime. Many were typified as having supernatural abilities and a connection to nature or to some other force or place. The language of the Fey was called Sylvan. Fae, or faeries, as many liked to be called, were creatures of any size, shape, texture, or smell, that exemplified and inhabited natural wonder. They were ruled by noble eladrins and other archfey." },
+    { "header": "Otherwordly", "detail": "Fey came in all shapes and sizes, and were not limited to elven features. While the Seelie court is more typical of what one thinks of when the word 'fairy' comes to mind, the different groups of Fey could vary greatly from each other." }
+  ],
+  "sections": [
+    { "header": "Timeless Wonder", "detail": "Time works differently in the Feywilds, and those native to the plane or who have been reshaped while they resided there often found themselves free from the perils of aging. So long as they remained in the Feywilds, such beings were effectively immortal and ageless, but should they leave they would find themselves aging at the same rate as humans of the Material Plane so long as they remained outside the Feywilds." },
+    { "header": "Wayward Travelers", "detail": "Some Fey were banished from the Feywilds, others left by their own choice, while others still found themselves crossing the realms due to nothing more than chance. Adjustment to the other planes could be difficult, especially as they begin to age, and they may find that their connection to nature and their magics is diminished so long as they are away from home. For example, many of the winged Fey lose their wings while outside the Feywilds." }
+  ],
+  "racialTraits": {
+    "opener": "Your Fey character has a variety of natural abilities, the result of exposure to the Feywilds and their connection to nature and the weird.",
+    "traits": [
+      { "name": "Ability Score Increase", "detail": "Your Charisma score increases by 2." },
+      { "name": "Age", "detail": "Fey born in the Feywilds do not age in the Feywilds before events unceremoniously end their lives, and as such can live thousands of years. They reach adulthood at around 100 years of age. Outside of the Feywilds they age at the rate of typical humans." },
+      { "name": "Alignment" , "detail": "A Fey's alignment is strongly related to which group they are affiliated with, but most Fey lean towards Neutrality and are almost always chaotic in nature." },
+      { "name": "Size", "detail": "Fey can range anywhere from 3.5 feet to 7 feet tall, depending on their nature. Your size is medium" },
+      { "name": "Speed", "detail": "Your base walking speed is 30 feet" },
+      { "name": "Darkvision", "detail": "Accustomed to the dark and dangerous areas within the Feywild, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray." },
+      { "name": "Fey Ancestry", "detail": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep." },
+      { "name": "Languages", "detail": "Common and Sylvan" },
+      { "name": "Connection to Nature", "detail": "You have proficiency in the Nature skill. You know the Druidcraft cantrip" }
+    ]
+  },
+  "subRaces": [
+    {
+      "name": "Fey of the Seelie Court",
+      "description": [
+        "Coming Soon"
+      ],
+      "traits": [
+        { "name": "Ability Score Increase", "detail": "Your Wisdom score increases by 1." },
+        { "name": "Fey Magic", "detail": "Your connection with the magic of the Feywild allows you to cast some spells innately. Starting at the 4th level you can cast Misty Step once a day using this feature. Starting at the 7th level you can cast Speak with Plants once a day using this feature." },
+        { "name": "Retractable Claws", "detail": "Even the most beautiful and graceful of Fey can grow claws from their fingertips. Inch-long black claws extend from once slender, beautiful fingers. Your claws are natural weapons and can be used to make an unarmed strike. If you hit with them, they deal 1d4 + STR modifier slashing damage." },
+        { "name": "Gaea's Reverence", "detail": "If you eat meat, you must make a Constitution saving throw against a DC of 14. If you fail, you are poisoned for 1 hour" }
+      ]
+    },
+    {
+      "name": "Fey of the Unseelie Court",
+      "description": [
+        "Description Coming Soon"
+      ],
+      "traits": [
+        { "name": "Ability Score Increase", "detail": "Your Constitution score increases by 1." },
+        { "name": "Fey Magic", "detail": "Your connection with the magic of the Feywild allows you to cast some spells innately. Starting at the 4th level you can cast Darkness once a day using this feature. Starting at the 7th level you can cast Speak with Dead once a day using this feature." },
+        { "name": "Retractable Claws", "detail": "Even the most beautiful and graceful of Fey can grow claws from their fingertips. Inch-long black claws extend from once slender, beautiful fingers. Your claws are natural weapons and can be used to make an unarmed strike. If you hit with them, they deal 1d4 + STR modifier slashing damage." }
+      ]
+    },
+    {
+      "name": "Court of Satyrs",
+      "description": [
+        "Description Coming Soon"
+      ],
+      "traits": [
+        { "name": "Ability Score Increase", "detail": "Your Dexterity score increases by 1." },
+        { "name": "Fleet of Hoof", "detail": "Your base walking speed increases to 35 feet." },
+        { "name": "Natural Performer", "detail": "You have proficiency in the Performance or Acrobatics skill." },
+        { "name": "Fey Magic", "detail": "Your connection with the magic of the Feywild allows you to cast some spells innately. Starting at the 4th level you can cast Charm Person once per day using this feature. Charisma is your spellcasting ability for it." }
+      ]
+    },
+    {
+      "name": "Circle of Hags",
+      "description": [
+        "Description Coming Soon"
+      ],
+      "traits": [
+        { "name": "Ability Score Increase", "detail": "Your Intelligence score increases by 1." },
+        { "name": "Altered Shape", "detail": "Though once a normal human, your time in the Feywilds has turned you into something..... else. Vines grow from your hair and strange markings of the woods appear on your skin. Even in the Feywilds you age at the same rate as a normal human." },
+        { "name": "Arcane Knowledge", "detail": "Surviving for so long in such a magical realm has made you naturally attuned to magic. You have proficiency in the Arcana skill." },
+        { "name": "Fey Magic", "detail": "Your connection with the magic of the Feywild allows you to cast some spells innately. Starting at the 4th level you can cast Darkness once a day using this feature. Starting at the 7th level you can cast Vampiric Touch once a day using this feature." }
+      ]
+    }
+  ]
+}
